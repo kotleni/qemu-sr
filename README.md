@@ -2,6 +2,8 @@
 
 A QEMU fork with an embedded overlay for speedrun timing.
 
+![Arch Linux Install Speedrun](qemu_sr_archinstall.png)
+
 ---
 
 ### Usage
