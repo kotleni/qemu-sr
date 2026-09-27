@@ -127,8 +127,15 @@ struct GtkDisplayState {
     GtkWidget *untabify_item;
     GtkWidget *show_menubar_item;
 
+    GtkWidget *overlay;
     GtkWidget *vbox;
     GtkWidget *notebook;
+
+    GtkWidget *sr_timer;
+    GtkWidget *sr_label;
+    GTimer *sr_gtimer;
+    // uint64_t sr_start_time;
+
     int button_mask;
     gboolean last_set;
     int last_x;
